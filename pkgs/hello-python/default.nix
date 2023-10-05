@@ -3,7 +3,7 @@
   python3Packages,
 }:
 python3Packages.buildPythonPackage {
-  pname = "hello-python";
+  pname = "hello_python";
   version = "0.0.0";
   src = self;
   PIP_DISABLE_PIP_VERSION_CHECK = 1;
