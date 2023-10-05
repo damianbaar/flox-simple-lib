@@ -7,7 +7,7 @@
 # Replace "stdenv.mkDerivation" with your language's builder
 stdenv.mkDerivation {
   pname = "flox-simple-lib";
-  version = "0.0.1-${lib.flox-floxpkgs.getRev self}";
+  version = "0.0.4-${lib.flox-floxpkgs.getRev self}";
   src = self; # + "/src";
 
   # Add runtime dependencies to buildInputs.
